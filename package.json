@@ -1,11 +1,6 @@
 {
   "name": "data-visualizer-app",
-  "version": "30.0.1",
   "description": "DHIS2 Data Visualizer app",
   "license": "BSD-3-Clause",
-  "proxy": {
-    "/dhis-web-core-resource": {
-      "target": "http://localhost:8080"
-    }
-  }
+  "version": "independent"
 }
