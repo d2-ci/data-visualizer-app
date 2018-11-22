@@ -1,8 +1,8 @@
 {
-  "main.js": "./static/js/main.d1e7baa7.js",
-  "main.css": "./static/css/main.c2008c71.css",
-  "main.js.map": "./static/js/main.d1e7baa7.js.map",
-  "main.css.map": "./static/css/main.c2008c71.css.map",
+  "main.js": "./static/js/main.b113deb3.js",
+  "main.css": "./static/css/main.b82a735e.css",
+  "main.js.map": "./static/js/main.b113deb3.js.map",
+  "main.css.map": "./static/css/main.b82a735e.css.map",
   "static/media/roboto-latin-700.woff2": "./static/media/roboto-latin-700.037d8304.woff2",
   "static/media/roboto-latin-100.woff2": "./static/media/roboto-latin-100.987b8457.woff2",
   "static/media/roboto-latin-100italic.woff2": "./static/media/roboto-latin-100italic.6232f43d.woff2",
@@ -27,9 +27,9 @@
   "static/media/roboto-latin-900.woff": "./static/media/roboto-latin-900.8c2ade50.woff",
   "static/media/roboto-latin-900italic.woff2": "./static/media/roboto-latin-900italic.7b770d6c.woff2",
   "static/media/roboto-latin-900italic.woff": "./static/media/roboto-latin-900italic.bc833e72.woff",
-  "static/media/MaterialIcons-Regular.eot": "./static/media/MaterialIcons-Regular.e79bfd88.eot",
-  "static/media/MaterialIcons-Regular.woff2": "./static/media/MaterialIcons-Regular.570eb838.woff2",
-  "static/media/MaterialIcons-Regular.woff": "./static/media/MaterialIcons-Regular.012cf6a1.woff",
-  "static/media/MaterialIcons-Regular.ttf": "./static/media/MaterialIcons-Regular.a37b0c01.ttf",
+  "static/media/MaterialIcons-Regular.eot": "./static/media/MaterialIcons-Regular.016c14ad.eot",
+  "static/media/MaterialIcons-Regular.woff2": "./static/media/MaterialIcons-Regular.8a9a261c.woff2",
+  "static/media/MaterialIcons-Regular.woff": "./static/media/MaterialIcons-Regular.c38ebd3c.woff",
+  "static/media/MaterialIcons-Regular.ttf": "./static/media/MaterialIcons-Regular.d41ae58d.ttf",
   "index.html": "./index.html"
 }
