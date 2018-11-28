@@ -3,7 +3,7 @@
   "default_locale": "en",
   "activities": {
     "dhis": {
-      "href": "../../.."
+      "href": ".."
     }
   },
   "appType": "APP",
@@ -19,5 +19,5 @@
   "dhis2": {
     "apiVersion": "31"
   },
-  "manifest_generated_at": "Wed Nov 28 2018 14:32:18 GMT+0000 (UTC)"
+  "manifest_generated_at": "Wed Nov 28 2018 14:58:17 GMT+0000 (UTC)"
 }
