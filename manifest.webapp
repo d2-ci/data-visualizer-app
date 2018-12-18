@@ -1,0 +1,23 @@
+{
+  "launch_path": "index.html",
+  "default_locale": "en",
+  "activities": {
+    "dhis": {
+      "href": ".."
+    }
+  },
+  "appType": "APP",
+  "name": "Data Visualizer",
+  "version": "32.0.0-beta",
+  "description": "DHIS2 Data Visualizer app",
+  "icons": {
+    "48": "icon.png"
+  },
+  "developer": {
+    "name": "DHIS2"
+  },
+  "dhis2": {
+    "apiVersion": "31"
+  },
+  "manifest_generated_at": "Tue Dec 18 2018 12:32:40 GMT+0000 (UTC)"
+}
