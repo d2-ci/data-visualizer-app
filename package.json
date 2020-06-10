@@ -1,0 +1,37 @@
+{
+    "name": "data-visualizer",
+    "description": "DHIS2 Data Visualizer",
+    "private": true,
+    "license": "BSD-3-Clause",
+    "devDependencies": {
+        "@dhis2/cli-style": "^7.0.0",
+        "@dhis2/d2-i18n-extract": "^1.0.8",
+        "@dhis2/d2-i18n-generate": "^1.1.1",
+        "babel-preset-env": "^1.6.1",
+        "babel-preset-stage-0": "^6.24.1",
+        "create-react-class": "^15.6.3",
+        "enzyme": "^3.5.0",
+        "enzyme-adapter-react-16": "^1.3.0",
+        "eslint-config-prettier": "^3.0.1",
+        "eslint-plugin-prettier": "^2.6.0",
+        "husky": "^1.1.2",
+        "jest-enzyme": "^6.0.0",
+        "lerna": "^3.1.4",
+        "prettier": "^1.11.1",
+        "react-stub-context": "^0.8.1"
+    },
+    "scripts": {
+        "bootstrap": "lerna bootstrap",
+        "build": "lerna run build",
+        "lint": "lerna run lint",
+        "prettier-ci": "lerna run prettier-ci",
+        "prettier-write": "lerna run prettier-write",
+        "start-app": "lerna run --scope data-visualizer-app start",
+        "test": "jest",
+        "coverage": "lerna run test -- --coverage"
+    },
+    "workspaces": [
+        "packages/*"
+    ],
+    "version": "32.1.1"
+}
