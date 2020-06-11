@@ -1,0 +1,34 @@
+{
+    "name": "data-visualizer",
+    "description": "DHIS2 Data Visualizer",
+    "private": true,
+    "license": "BSD-3-Clause",
+    "devDependencies": {
+        "@dhis2/cli-style": "^5.0.2",
+        "concurrently": "^5.2.0",
+        "enzyme": "^3.11.0",
+        "enzyme-adapter-react-16": "^1.15.2",
+        "eslint-plugin-react-hooks": "^3.0.0",
+        "jest-enzyme": "^7.1.2",
+        "loglevel": "^1.6.8"
+    },
+    "scripts": {
+        "build-plugin": "cd packages/plugin && yarn build",
+        "build-app": "cd packages/app && yarn build",
+        "build": "yarn build-plugin && yarn build-app",
+        "lint": "d2-style js check || d2-style text check",
+        "format": "d2-style js apply || d2-style text apply",
+        "start-app": "cd packages/app && yarn start",
+        "start": "concurrently -n plugin,app \"yarn build-plugin --watch\" \"yarn start-app\"",
+        "test-plugin": "cd packages/plugin && yarn test",
+        "test-app": "cd packages/app && yarn test",
+        "test": "yarn test-plugin && yarn test-app",
+        "coverage": "yarn test-plugin --coverage && yarn test-app --coverage",
+        "validate-commit": "d2-style js check --staged && d2-style text check --staged",
+        "validate-push": "yarn test"
+    },
+    "workspaces": [
+        "packages/*"
+    ],
+    "version": "35.1.5"
+}
