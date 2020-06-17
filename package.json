@@ -1,34 +1,55 @@
 {
-    "name": "data-visualizer",
-    "description": "DHIS2 Data Visualizer",
-    "private": true,
+    "name": "data-visualizer-app",
+    "version": "35.2.1",
+    "description": "DHIS2 Data Visualizer app",
     "license": "BSD-3-Clause",
+    "private": true,
+    "homepage": ".",
     "devDependencies": {
-        "@dhis2/cli-style": "^5.0.2",
-        "concurrently": "^5.2.0",
-        "enzyme": "^3.11.0",
-        "enzyme-adapter-react-16": "^1.15.2",
-        "eslint-plugin-react-hooks": "^3.0.0",
-        "jest-enzyme": "^7.1.2",
-        "loglevel": "^1.6.8"
+        "@dhis2/cli-app-scripts": "^4.0.8",
+        "cypress": "^3.6.1",
+        "eslint-plugin-cypress": "^2.11.1",
+        "redux-mock-store": "^1.5.4"
+    },
+    "dependencies": {
+        "@dhis2/analytics": "^7.1.3",
+        "@dhis2/app-runtime": "*",
+        "@dhis2/d2-i18n": "*",
+        "@dhis2/d2-ui-file-menu": "^7.0.4",
+        "@dhis2/d2-ui-interpretations": "^7.0.4",
+        "@dhis2/data-visualizer-plugin": "35.2.1",
+        "@dhis2/ui": "^5.0.3",
+        "@material-ui/icons": "^3.0.1",
+        "d2": "31.8.1",
+        "history": "^4.7.2",
+        "lodash-es": "^4.17.11",
+        "prop-types": "^15",
+        "raf": "3.4.1",
+        "react": "^16.13",
+        "react-beautiful-dnd": "^13.0.0",
+        "react-dom": "^16.13",
+        "react-redux": "^7.2.0",
+        "redux": "^4.0.5",
+        "redux-actions": "^2.2.1",
+        "redux-logger": "^3.0.6",
+        "redux-thunk": "^2.2.0",
+        "reselect": "^4.0.0",
+        "whatwg-fetch": "^3.0.0"
     },
     "scripts": {
-        "build-plugin": "cd packages/plugin && yarn build",
-        "build-app": "cd packages/app && yarn build",
-        "build": "yarn build-plugin && yarn build-app",
-        "lint": "d2-style js check || d2-style text check",
-        "format": "d2-style js apply || d2-style text apply",
-        "start-app": "cd packages/app && yarn start",
-        "start": "concurrently -n plugin,app \"yarn build-plugin --watch\" \"yarn start-app\"",
-        "test-plugin": "cd packages/plugin && yarn test",
-        "test-app": "cd packages/app && yarn test",
-        "test": "yarn test-plugin && yarn test-app",
-        "coverage": "yarn test-plugin --coverage && yarn test-app --coverage",
-        "validate-commit": "d2-style js check --staged && d2-style text check --staged",
-        "validate-push": "yarn test"
+        "start": "d2-app-scripts start",
+        "build": "d2-app-scripts build",
+        "test": "d2-app-scripts test",
+        "cy:e2e:open": "cypress open",
+        "cy:e2e:run": "cypress run",
+        "coverage": "npm run test --coverage"
     },
-    "workspaces": [
-        "packages/*"
-    ],
-    "version": "35.2.0"
+    "jest": {
+        "transformIgnorePatterns": [
+            "node_modules/(?!(lodash-es|@dhis2/d2-ui-[a-z-]+)/)"
+        ],
+        "setupFilesAfterEnv": [
+            "../../config/testSetup.js"
+        ]
+    }
 }
