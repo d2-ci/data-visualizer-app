@@ -4,6 +4,7 @@
   "name": "Data Visualizer",
   "description": "DHIS2 Data Visualizer app",
   "version": "35.12.10",
+  "core_app": true,
   "launch_path": "index.html",
   "default_locale": "en",
   "activities": {
@@ -14,7 +15,7 @@
   "icons": {
     "48": "dhis2-app-icon.png"
   },
-  "manifest_generated_at": "Wed Sep 09 2020 01:19:09 GMT+0000 (Coordinated Universal Time)",
+  "manifest_generated_at": "Mon Sep 14 2020 14:50:23 GMT+0000 (Coordinated Universal Time)",
   "display": "standalone",
   "theme_color": "#ffffff",
   "background_color": "#ffffff",
