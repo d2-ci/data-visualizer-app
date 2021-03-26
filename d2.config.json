@@ -3,6 +3,6 @@
   "name": "data-visualizer",
   "title": "Data Visualizer",
   "coreApp": true,
-  "version": "35.20.22",
+  "version": "35.20.23",
   "description": "DHIS2 Data Visualizer app"
 }
