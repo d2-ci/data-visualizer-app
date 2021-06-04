@@ -1,8 +1,8 @@
 {
   "type": "app",
+  "name": "data-visualizer",
   "title": "Data Visualizer",
   "coreApp": true,
-  "name": "data-visualizer-app",
-  "version": "35.18.9",
+  "version": "37.4.3",
   "description": "DHIS2 Data Visualizer app"
 }
