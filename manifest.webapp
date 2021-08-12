@@ -8,7 +8,7 @@
   },
   "appType": "APP",
   "name": "Data Visualizer",
-  "version": "32.1.46",
+  "version": "32.1.47",
   "description": "DHIS2 Data Visualizer app",
   "icons": {
     "48": "icon.png"
@@ -19,5 +19,5 @@
   "dhis2": {
     "apiVersion": "31"
   },
-  "manifest_generated_at": "Tue Aug 10 2021 02:14:41 GMT+0000 (Coordinated Universal Time)"
+  "manifest_generated_at": "Thu Aug 12 2021 02:12:21 GMT+0000 (Coordinated Universal Time)"
 }
