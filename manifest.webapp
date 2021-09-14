@@ -1,9 +1,9 @@
 {
   "appType": "APP",
-  "short_name": "data-visualizer-app",
+  "short_name": "data-visualizer",
   "name": "Data Visualizer",
   "description": "DHIS2 Data Visualizer app",
-  "version": "35.20.3",
+  "version": "38.0.11",
   "core_app": true,
   "launch_path": "index.html",
   "default_locale": "en",
@@ -15,7 +15,7 @@
   "icons": {
     "48": "dhis2-app-icon.png"
   },
-  "manifest_generated_at": "Thu Mar 04 2021 15:16:41 GMT+0000 (Coordinated Universal Time)",
+  "manifest_generated_at": "Tue Sep 14 2021 19:53:42 GMT+0000 (Coordinated Universal Time)",
   "display": "standalone",
   "theme_color": "#ffffff",
   "background_color": "#ffffff",
