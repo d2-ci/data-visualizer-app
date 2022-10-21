@@ -1,0 +1,12 @@
+{
+  "type": "app",
+  "name": "data-visualizer",
+  "title": "Data Visualizer",
+  "coreApp": true,
+  "version": "39.2.13",
+  "description": "DHIS2 Data Visualizer",
+  "entryPoints": {
+    "app": "index.html",
+    "plugin": "plugin.html"
+  }
+}
