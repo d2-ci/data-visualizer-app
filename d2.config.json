@@ -3,7 +3,7 @@
   "name": "data-visualizer",
   "title": "Data Visualizer",
   "coreApp": true,
-  "version": "39.2.13",
+  "version": "39.2.15",
   "description": "DHIS2 Data Visualizer",
   "entryPoints": {
     "app": "index.html",
