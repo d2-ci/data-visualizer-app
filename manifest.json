@@ -1,7 +1,7 @@
 {
   "short_name": "Data Visualizer",
   "name": "Data Visualizer",
-  "description": "DHIS2 Data Visualizer app",
+  "description": "DHIS2 Data Visualizer",
   "icons": [
     {
       "src": "android-chrome-192x192.png",
