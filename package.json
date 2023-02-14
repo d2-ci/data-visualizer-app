@@ -38,7 +38,7 @@
         "start-server-and-test": "^1.14.0"
     },
     "dependencies": {
-        "@dhis2/analytics": "^24.5.0-alpha.1",
+        "@dhis2/analytics": "24.5.0-alpha.2",
         "@dhis2/app-runtime": "^3.7.0",
         "@dhis2/app-runtime-adapter-d2": "^1.1.0",
         "@dhis2/app-service-datastore": "^1.0.0-beta.3",
@@ -64,7 +64,7 @@
     },
     "jest": {
         "transformIgnorePatterns": [
-            "node_modules/(?!(lodash-es|@dhis2/multi-calendar-dates|@dhis2/d2-ui-[a-z-]+)/)"
+            "node_modules/(?!(lodash-es|@dhis2/d2-ui-[a-z-]+)/)"
         ],
         "setupFilesAfterEnv": [
             "./config/testSetup.js"
