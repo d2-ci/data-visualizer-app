@@ -4,7 +4,7 @@
   "id": "6f656971-c392-42d8-8363-eb37d9287f3d",
   "title": "Data Visualizer",
   "coreApp": true,
-  "minDHIS2Version": "2.39",
+  "minDHIS2Version": "2.40",
   "version": "99.0.0",
   "description": "DHIS2 Data Visualizer",
   "entryPoints": {
