@@ -1,0 +1,25 @@
+{
+  "app_hub_id": "6f656971-c392-42d8-8363-eb37d9287f3d",
+  "appType": "APP",
+  "short_name": "data-visualizer",
+  "name": "Data Visualizer",
+  "description": "DHIS2 Data Visualizer",
+  "version": "100.0.3",
+  "core_app": true,
+  "launch_path": "index.html",
+  "plugin_launch_path": "plugin.html",
+  "default_locale": "en",
+  "activities": {
+    "dhis": {
+      "href": "*"
+    }
+  },
+  "icons": {
+    "48": "dhis2-app-icon.png"
+  },
+  "manifest_generated_at": "Wed May 03 2023 09:16:26 GMT+0000 (Coordinated Universal Time)",
+  "display": "standalone",
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff",
+  "scope": "."
+}
