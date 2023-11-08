@@ -4,7 +4,7 @@
   "short_name": "data-visualizer",
   "name": "Data Visualizer",
   "description": "DHIS2 Data Visualizer",
-  "version": "100.2.0",
+  "version": "100.3.0",
   "core_app": true,
   "launch_path": "index.html",
   "plugin_launch_path": "plugin.html",
@@ -17,7 +17,7 @@
   "icons": {
     "48": "dhis2-app-icon.png"
   },
-  "manifest_generated_at": "Wed Nov 08 2023 14:55:37 GMT+0000 (Coordinated Universal Time)",
+  "manifest_generated_at": "Wed Nov 08 2023 15:22:17 GMT+0000 (Coordinated Universal Time)",
   "display": "standalone",
   "theme_color": "#ffffff",
   "background_color": "#ffffff",
