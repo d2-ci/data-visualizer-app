@@ -5,7 +5,7 @@
   "title": "Data Visualizer",
   "coreApp": true,
   "minDHIS2Version": "2.40",
-  "version": "100.3.1",
+  "version": "100.4.0",
   "description": "DHIS2 Data Visualizer",
   "entryPoints": {
     "app": "index.html",
