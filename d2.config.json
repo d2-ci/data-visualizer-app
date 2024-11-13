@@ -7,7 +7,7 @@
   "minDHIS2Version": "2.40",
   "direction": "auto",
   "skipPluginLogic": true,
-  "version": "100.8.4",
+  "version": "100.8.5",
   "description": "DHIS2 Data Visualizer",
   "entryPoints": {
     "app": "index.html",
