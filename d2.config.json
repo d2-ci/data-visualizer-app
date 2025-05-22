@@ -7,7 +7,7 @@
   "minDHIS2Version": "2.40",
   "pluginType": "DASHBOARD",
   "direction": "auto",
-  "version": "101.2.0",
+  "version": "101.2.1",
   "description": "DHIS2 Data Visualizer",
   "entryPoints": {
     "app": "index.html",
