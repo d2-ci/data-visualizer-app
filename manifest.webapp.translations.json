@@ -26,6 +26,10 @@
     "description": "DHIS2 Data Visualizer"
   },
   {
+    "locale": "en_US",
+    "shortcuts": {}
+  },
+  {
     "locale": "es",
     "shortcuts": {}
   },
